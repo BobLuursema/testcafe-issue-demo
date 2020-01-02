@@ -7,8 +7,9 @@ createTestCafe("localhost")
     return (
       runner
         .src("test.js")
-        .browsers('chrome --user-agent="testcafe"')
-        //.browsers("chrome")
+        .browsers('chrome --user-agent="testcafe"') /* Does not work */
+        //.browsers('chrome --user-agent="AppleWebKit"') /* Works */
+        //.browsers("chrome") /* Works */
         .run({
           debugOnFail: true
         })
