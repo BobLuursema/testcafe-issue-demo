@@ -1,0 +1,11 @@
+{
+  "name": "testcafe-issue-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Bob Luursema",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "testcafe": "^1.7.1"
+  }
+}
